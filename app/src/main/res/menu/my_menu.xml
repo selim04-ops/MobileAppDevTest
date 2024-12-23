@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/high"
+        android:icon="@drawable/ic_high"
+        android:title="HIGH" />
+    <item
+        android:id="@+id/medium"
+        android:icon="@drawable/ic_medium"
+        android:title="MEDIUM" />
+    <item
+        android:id="@+id/low"
+        android:icon="@drawable/ic_low"
+        android:title="LOW" />
+    <item
+        android:icon="@drawable/ic_passed"
+        android:id="@+id/passed"
+        android:title="Passed" />
+</menu>

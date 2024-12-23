@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_card"
+    android:elevation="4dp"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/todoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Title"
+        android:textColor="#212121"
+        android:maxLines="1"
+        android:ellipsize="end" />
+    <TextView
+        android:id="@+id/todoDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:text="Description of the task goes here."
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="fill_vertical">
+        <!-- Date -->
+        <TextView
+            android:id="@+id/todoDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6200EE"
+            android:text="Date"
+            android:textSize="14sp" />
+        <!-- Time -->
+        <TextView
+            android:id="@+id/todoTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6200EE"
+            android:text="Time"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+        <!-- Priority -->
+        <TextView
+            android:id="@+id/todoPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:textColor="#D32F2F" />
+    </LinearLayout>
+</LinearLayout>

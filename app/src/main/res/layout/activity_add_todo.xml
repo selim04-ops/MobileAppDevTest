@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_card"
+        android:elevation="4dp">
+        <!-- Title Input -->
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#757575" />
+        <!-- Description Input -->
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:hint="Description for the activity"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+        <!-- Date Input -->
+        <EditText
+            android:id="@+id/edtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date (DD/MM/YYYY)"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#757575" />
+        <!-- Time Input -->
+        <EditText
+            android:id="@+id/edtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time (HH:MM)"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#757575" />
+        <!-- Priority Spinner -->
+        <EditText
+            android:id="@+id/edtPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Priority (High/Medium/Low)"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="#212121"
+            android:textColorHint="#757575" />
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSaveTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Todo"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="4dp" />
+    </LinearLayout>
+</ScrollView>
